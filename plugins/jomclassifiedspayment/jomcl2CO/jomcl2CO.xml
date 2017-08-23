@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0.0" type="plugin" group="jomclassifiedspayment" method="upgrade">
+  <name>Jom Classifieds - 2CO</name>
+  <author>Jom Classifieds</author>
+  <creationDate>February 2015</creationDate>
+  <copyright>Copyright (c) 2013 - 2014 Jom Classifieds. All rights reserved.</copyright>
+  <authorEmail>admin@jomclassifieds.com</authorEmail>
+  <authorUrl>jomclassifieds.com</authorUrl>
+  <version>3.0</version>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <description>Jom Classifieds - 2CO</description>
+  <files>
+    <filename plugin="jomcl2CO">jomcl2CO.php</filename>   
+	<folder>assets</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.plg_jomclassifiedspayment_jomcl2CO.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="mode" type="list" default="Y" label="MODE_LABEL" description="MODE_DESCRIPTION">
+          <option value="Y">2CO_TEST</option>
+          <option value="N">2CO_LIVE</option>
+        </field>		
+		<field name="sid" type="text" default="" label="SID_LABEL" description="SID_DESCRIPTION" />
+		<field name="secretword" type="text" default="" label="SCW_LABEL" description="SCW_DESCRIPTION" />		
+		<field name="lang" type="text" default="en" label="2CO_LANGUAGE" description="2CO_LANGUAGE_DESCRIPTION" />			
+		<field name="log" type="list" default="0" label="MODE_LOGGING" description="MODE_LOGGING_DESCRIPTION">
+          <option value="0">2CO_NO</option>
+          <option value="1">2CO_YES</option>
+        </field>	
+		<field name="notify_url" type="text" size="80" readonly="true"  label="2CO_NOTIFY_URL_LABEL" description="2CO_NOTIFY_URL_LABEL_DESC" default="http://domain.com/index.php?option=com_jomclassifieds&amp;view=payment&amp;task=process&amp;ptype=jomcl2CO&amp;action=notify"/>
+		<field name="return_url" type="text" size="80" readonly="true"  label="2CO_RETURN_URL_LABEL" description="2CO_RETURN_URL_LABEL_DESC" default="http://domain.com/index.php?option=com_jomclassifieds&amp;view=payment&amp;task=process&amp;ptype=jomcl2CO&amp;action=return"/>				
+      </fieldset>
+    </fields>
+  </config>
+</extension>

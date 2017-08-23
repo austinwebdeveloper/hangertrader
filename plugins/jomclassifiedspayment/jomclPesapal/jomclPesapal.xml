@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0.0" type="plugin" group="jomclassifiedspayment" method="upgrade">
+  <name>Jom Classifieds - Pesapal</name>
+  <author>Jom Classifieds</author>
+  <creationDate>February 2015</creationDate>
+  <copyright>Copyright (c) 2013 - 2014 Jom Classifieds. All rights reserved.</copyright>
+  <authorEmail>admin@jomclassifieds.com</authorEmail>
+  <authorUrl>jomclassifieds.com</authorUrl>
+  <version>3.0</version>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <description>Jom Classifieds - Pesapal</description>
+  <files>
+    <filename plugin="jomclPesapal">jomclPesapal.php</filename>
+	<filename plugin="jomclPesapal">OAuth.php</filename>
+	<folder>assets</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.plg_jomclassifiedspayment_jomclPesapal.ini</language>
+  </languages>
+    <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="mode" type="list" default="N" label="MODE_LABEL" description="MODE_DESCRIPTION">
+          <option value="Y">Sandbox</option>
+          <option value="N">Live</option>
+        </field>		
+		<field name="sid" type="text" default="" label="SID_LABEL" description="SID_DESCRIPTION" />
+		<field name="secretword" type="text" default="" label="SCW_LABEL" description="SCW_DESCRIPTION" />
+		<field name="log" type="list" default="0" label="MODE_LOGGING" description="MODE_LOGGING_DESCRIPTION">
+          <option value="0">PESAPAL_NO</option>
+          <option value="1">PESAPAL_YES</option>
+        </field>			
+		<field name="notify_url" type="text" size="80" readonly="true"  label="PESAPAL_NOTIFY_URL_LABEL" description="PESAPAL_NOTIFY_URL_LABEL_DESC" default="http://domain.com/index.php?option=com_jomclassifieds&amp;view=payment&amp;task=process&amp;ptype=jomclPesapal&amp;action=notify"/>
+		</fieldset>
+    </fields>
+  </config>
+</extension>

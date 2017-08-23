@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0.0" type="plugin" group="jomclassifiedspayment" method="upgrade">
+  <name>Jom Classifieds - Paypal</name>
+  <author>Jom Classifieds</author>
+  <creationDate>February 2015</creationDate>
+  <copyright>Copyright (c) 2013 - 2014 Jom Classifieds. All rights reserved.</copyright>
+  <authorEmail>admin@jomclassifieds.com</authorEmail>
+  <authorUrl>jomclassifieds.com</authorUrl>
+  <version>3.0</version>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <description>Jom Classifieds - Paypal</description>
+  <files>
+    <filename plugin="jomclPaypal">jomclPaypal.php</filename>
+    <folder>cert</folder>
+	<folder>assets</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.plg_jomclassifiedspayment_jomclPaypal.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="mode" type="list" default="sandbox" label="MODE_LABEL" description="MODE_DESCRIPTION">
+          <option value="sandbox">SANDBOX</option>
+          <option value="production">PRODUCTION</option>
+        </field>
+        <field name="email" type="text" default="" label="EMAIL_ID_LABEL" description="EMAIL_ID_DESCRIPTION" />       
+        <field name="cancel" type="text" default="" label="CANCEL_PAGE_URL_LABEL" description="CANCEL_PAGE_URL_DESCRIPTION" />
+		<field name="return" type="text" default="" label="SUCCESS_PAGE_URL_LABEL" description="SUCCESS_PAGE_URL_DESCRIPTION" />	
+		<field name="log" type="list" default="0" label="LOG_LABEL" description="LOG_DESCRIPTION">
+          <option value="0">LOG_NO</option>
+          <option value="1">LOG_YES</option>
+        </field>	
+      </fieldset>
+    </fields>
+  </config>
+</extension>
