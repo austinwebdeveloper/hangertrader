@@ -1,0 +1,26 @@
+/**
+* @version   $Id: buttons.less 12813 2013-08-16 21:57:09Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Button Styling */
+.buttonStyle(){
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;	
+}
+.buttonStyleFlat(@textColor: #f0f0f0, @Background: #000000, @borderRadius: 0){
+	.buttonStyle();
+	.border-radius(@borderRadius);
+	color: @textColor;
+	background-color: @Background;
+}	
+.buttonStyleGradient(@textColor: #c8c8c8, @startBackgroundColor: #f0f0f0, @endBackgroundColor: #ebebeb, @borderRadius: 0){
+	.buttonStyle();
+	.user-select(none);
+	.border-radius(@borderRadius);
+	#gradient > .vertical(@startBackgroundColor, @endBackgroundColor);
+}

@@ -1,0 +1,1158 @@
+@import url("fontawsome.css");
+
+/*background-image*/
+#rt-page-surround {
+    /*background: url("/images/hangar/backgrounds/sky-clouds.jpg") repeat-x !important;*/ /* rize - 06/07/2016 - task #4029*/
+    /* anandbabu 08/28/2015 Task #3730 */
+}
+
+#rt-page-surround {
+	/*background: 		 url("/images/hangar/backgrounds/intbg.png") repeat-x 0 0;*/ /* rize - 06/07/2016 - task #4029*/
+    /*
+    background-repeat:   repeat;
+    background-position: 0 -470px;* Sandra 08/28/2015 Task #3730 */
+}
+
+#rt-footer ul.menu li{
+  display: inline-block;
+}
+.FooterMenu ul.menu {
+	text-align:     center;
+    padding-bottom: 10px;
+}
+.FooterMenu ul.menu a::before {
+	display: none;
+}
+.FooterMenu span{
+	display: none;
+}
+
+#rt-mainbody-surround .title,
+#rt-mainbody-surround .control-label{
+	color: #D64242;
+}
+
+.FooterMenu ul.menu li a{
+	font-weight: bold;
+	color:       #D64242;
+}
+/*
+.menu-block ul.gf-menu.l1 li.item143.active.last a.item span.menu-item-wrapper,
+.menu-block .gf-menu li:hover > .item .menu-item-wrapper, .menu-block .gf-menu li:focus > .item .menu-item-wrapper,
+.menu-block ul.gf-menu.l1 li.item122.parent.active.last.rt-dropdown-right-large.rt-dropdown-right-desktop.rt-dropdown-right-tablet a.item span.menu-item-wrapper,
+.menu-block .gf-menu li.active > .item .menu-item-wrapper,
+.LoginModule,
+.FindAHangarModule,
+.FooterMenu ul.menu li.item.active a {
+	color: #D64242;
+}
+*/
+/*
+.menu-block .gf-menu li:hover > .item .menu-item-wrapper, .menu-block .gf-menu li:focus > .item .menu-item-wrapper{
+	color:#002566;
+}
+*/
+
+.LoginModule,
+.FindAHangarModule{
+	display: none;
+}
+
+.FooterMenu{
+    padding-top:    0px;
+    padding-bottom: 0px;
+    margin-bottom:  0px;
+    margin-top:     0px;
+}
+.FooterMenu .module-title{
+    margin-bottom: 0px;
+}
+
+#rt-top .rt-container{
+	text-align: center;
+}
+
+#rt-top .rt-container .menu-block .gf-menu .item{
+	color:     #fff;
+	font-size: 15px;
+
+}
+
+#rt-showcase .rt-block {
+	margin:  0px;
+	padding: 0px;
+}
+/*
+#rt-feature{
+	opacity: 0.7; /* rize - 05/24/2016 - task #3998*/
+/*}*/
+
+.container {
+    position: relative;
+    width:    100%;
+}
+
+#rt-top{
+	background-color: #000000;
+	opacity:          0.9;
+}
+/*#rt-feature .rt-container{
+	background-color: #000000;
+}*/
+
+#rt-mainbody-surround{
+	background-color: #fff;
+	/*opacity:          0.7; /* rize - 05/24/2016 - task #3998*/
+}
+
+#rt-feature .rt-flex-container{
+	text-align:center;
+}
+
+#rt-content-top .rt-flex-container .rt-block{
+    padding-left:  25px;
+    padding-right: 25px;
+}
+
+#rt-header > div > div > div.rt-grid-4.rt-alpha > div{
+    padding-bottom: 0px;
+}
+
+.rt-social-buttons{
+	text-align: center;
+}
+
+.menu-block .gf-menu li.active > .item .menu-item-wrapper,
+.menu-block .gf-menu li:hover > .item .menu-item-wrapper, .menu-block .gf-menu li:focus > .item .menu-item-wrapper,
+ul.menu li.active.current > a, ul.menu li.active > a{
+	color: #D64242;
+}
+
+div#rt-top {
+    position: relative;
+    z-index:  10;
+}
+#suggestions li a.clickable{
+	text-align: center;
+	display:    block
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+.menu-block li a span{
+	text-transform: capitalize;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+.gf-menu li{
+	padding: 0 20px;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+.sign-new li{
+	list-style:   none;
+	/*background:   url(/images/right-arrow.png) no-repeat 0 8px;*/
+	padding-left: 10px;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+#rt-logo{
+	padding-bottom: 20px;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+#rt-header .rt-grid-6{
+	text-align: center;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+.ht-full{
+	margin-top: 20px;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+.nav.menu li{
+	text-align: left;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+.priceblock h3{
+	font-size:   16.4px;
+	line-height: 17.8px;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+div.jomClassifiedsAdverts .gridview .jomcllist-items .title-block, div.jomClassifiedsAdverts .gridview .jomcldesc, div.jomClassifiedsAdverts .gridview .priceblock{
+	padding: 0 !important;
+}
+/* anandbabu - 04/29/2015 - task #3486*/
+div.jomClassifiedsAdverts .gridview .jomcllist-items{
+	margin-bottom: 14px !important;
+}
+/* anandbabu - 04/30/2015 - task #3486*/
+.menu-block .gf-menu.l1 > li > .item{
+	height: 35px;
+}
+/* anandbabu - 04/30/2015 - task #3486*/
+.gf-menu.l1{
+	line-height: 12px;
+}
+/* anandbabu - 04/30/2015 - task #3486*/
+.banneritem{
+	margin: 20px 0;
+}
+/* anandbabu - 04/30/2015 - task #3486*/
+.menu-home .FindAHangarModule{
+	display: none;
+}
+.rokbox-content .FindAHangarModule{
+	display: block;
+}
+/* anandbabu - 04/30/2015 - task #3486*/
+.rokbox-content label{
+	color: #d64242;
+}
+/* anandbabu - 04/30/2015 - task #3486*/
+/*.jomClassifiedscarousel .item{
+	width: 30.3%;
+	float: left;
+}*/
+/* anandbabu - 04/30/2015 - task #3486*/
+.my-loggedin-menu .span3{
+	padding-bottom: 5px;
+}
+/* anandbabu - 04/30/2015 - task #3486*/
+div.slick-track .item .imgblock{
+  	padding-bottom: 35% !important;
+  	height: 	 	60px !important;
+  	border: 		none !important;
+}
+/* anandbabu - 05/12/2015 - task #3558*/
+.input-large{
+	height:  32px !important;
+	margin:  0 !important;
+	padding: 0 !important;
+	width:   100%;
+}
+/* anandbabu - 07/30/2015 - task #3486*/
+div.slick-track .item{
+	min-height: 210px; /*220px*/ /* rize - 11/03/2016 - task #4131*/
+}
+/* anandbabu - 05/27/2015 - task #3486*/
+.featured-hanger h2.title{
+	color: #d64242;
+}
+
+/* anandbabu - 05/27/2015 - task #3486*/
+.box2{
+	display: none;
+}
+/* anandbabu - 05/27/2015 - task #3486 */
+div#jomclassifieds a.accordion-toggle.jomclToggleactive{
+	color: #d64242;
+}
+/* anandbabu - 05/27/2015 - task #3144 */
+div.slick-track .item img.resize{
+	width: 240px !important;
+}
+/* anandbabu - 07/21/2015 - task #3144 */
+div.slick-track .item{
+	padding: 0 !important;
+}
+
+/* anandbabu - 07/21/2015 - task #3144 */
+.span4{
+	width: 100%;
+}
+/* anandbabu - 07/30/2015 - task #3589 */
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly]{
+	background-color: #eee !important;
+	cursor: 		  not-allowed;
+}
+/* anandbabu - 07/31/2015 - task #3588 */
+.controls.desc_postads.jomclspan6{
+	margin-left: 20px !important;
+}
+
+/* anandbabu - 08/07/2015 - task #3588 */
+.rokbox-wrapper .rokbox-outer .rokbox-row .rokbox-inner .rokbox-container .rokbox-content{
+	background: none;
+}
+/* anandbabu - 08/07/2015 - task #3588 */
+.rokbox-wrapper .rokbox-outer .rokbox-row .rokbox-inner .rokbox-container{
+	background: none;
+	box-shadow: none;
+}
+/* anandbabu - 08/07/2015 - task #3588 */
+.rokbox-wrapper .rokbox-content > div{
+	max-width: 200px !important;
+}
+/* anandbabu - 08/07/2015 - task #3588 */
+#rt-mainbody-surround .white .module-title h2.title span{
+	color: #fff;
+}
+/* anandbabu - 08/07/2015 - task #3588 */
+.rokbox-wrapper .rt-block.FindAHangarModule.rokbox-content-element{
+	width: 100%;
+}
+/* anandbabu - 08/07/2015 - task #3588 */
+.rokbox-container .rokbox-content{
+	min-width: 250px;
+    width: 	   100%;
+}
+/* anandbabu - 08/10/2015 - task #3695 */
+div#jomclassifieds .listview .jomcllist-items{
+	border: 2px solid #c2c2c2;
+}
+/* anandbabu - 08/10/2015 - task #3695 */
+div#jomclassifieds .jomcllist-items h3{
+	font-size: 15px;
+}
+/* anandbabu - 08/10/2015 - task #3695 */
+.jomclimgthumbnils > img{
+	border: 	1px solid #ccc;
+	box-shadow: 2px 2px 2px 2px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+div#jomclassifieds .listview .jomclimgthumbnils,div#jomclassifieds .listview .cat-detials{
+	float: left;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+div#jomclassifieds .listview .cat-detials{
+	padding-left: 10px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+div#jomclassifieds .listview .detail-page{
+	background: #ccc none repeat scroll 0 0;
+	bottom: 	0;
+	text-align: center;
+	width: 		100%;
+	margin-top: 18px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+div#jomclassifieds .listview .full-row{
+	padding: 0 0 10px;
+	position:relative;
+	overflow:hidden;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+div#jomclassifieds .listview .full-row .rt-flex-container{
+	border:  	1px solid #d5d5d5;
+	min-height: 150px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.contacts-info{
+	border-left:  1px solid #d5d5d5;
+	flex-basis:   23%;
+	padding-left: 10px;
+    padding-top:  20px;
+	margin: 	  0px 0;
+	word-wrap: 	  break-word;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.contacts-info h4{
+	margin-top: 0px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.detai{
+	padding: 20px 0 0 30px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.full-title-show h4 span{
+	font-size:   15px;
+	font-weight: normal;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.full-title-show a:hover{
+	text-decoration: underline !important;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.seller-email, .seller-price{
+	padding: 5px 10px;
+	border:  1px solid #ededed;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.detial-left-block span{
+	margin-right: 10px;
+}
+
+/* anandbabu - 08/12/2015 - task #3694 */
+div#jomclassifieds .jomclfeaturedrow{
+	left: -45px;
+	top:  10px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.full-title-show{
+	border-bottom:   solid 1px #d5d5d5;
+	padding-bottom:  5px;
+	/*margin-bottom: 18px;*/
+	display:		 block;
+	padding-top:	 5px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.full-title-show h4{
+	margin:	 0;
+	padding: 0 0 0 30px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.full-title-show h4 a{
+	color:		 #686868;
+	font-weight: bold;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.detial-left-block .emailblock, .detial-left-block .jomcl-right, .detial-left-block .phoneblock{
+	border: 	   1px solid #ccc;
+	display: 	   inline-block;
+	margin-bottom: 10px;
+	margin-right:  10px;
+	padding: 	   0 10px;
+	width: 		   82%;
+	word-wrap: 	   break-word;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.phoneblock{
+    margin-top:    0px;
+	margin-bottom: 20px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.detial-right-block .jomcl-popup-trigger img{
+    width:  100%;
+	border: 2px solid #666;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.icon-user{
+	float: left;
+	width: 8%;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.emailblock > strong{
+	float: left;
+	width: 80%;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.detial-right-block ul{
+	/*float:   right;*/
+	/*margin:  0 0 15px 15px;*/
+	padding: 0;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.main-head-lines{
+	line-height:   25px;
+	margin-bottom: 20px;
+	display:       inline-block;
+	width:         100%;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.detial-right-block .addthis_toolbox.addthis_default_style{
+	float: right;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.detial-right-block .addthis_toolbox.addthis_default_style{
+	float: 		 right;
+	padding-top: 10px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.detial-left-block{
+	padding: 5px 0;
+	height:  600px;
+}
+/* anandbabu - 08/12/2015 - task #3694 */
+.property-details{
+	width: 	   50%;
+	word-wrap: break-word;
+}
+/* anandbabu - 08/12/2015 - task #3693 */
+#jcsSearchForm .btn.btn-danger{
+	display: none;
+}
+/* anandbabu - 08/12/2015 - task #3693 */
+.rokbox-container #jcsSearchForm .btn.btn-danger, .white #jcsSearchForm .btn.btn-danger{
+	display: block;
+}
+/* anandbabu - 08/12/2015 - task #3693 */
+#jcsSearchForm .btn{
+	margin-right: 3px;
+	float: 		  left;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.desc_sec{
+	word-wrap:   break-word;
+	padding-top: 20px;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.property-details.dtls_info{
+	display: 	 	inline-block;
+	width:   	 	100%;
+	border-top:   	2px solid #9f9f9f;
+	border-bottom:  2px solid #9f9f9f;
+	margin-top:  	-30px;
+	padding: 		20px 0;
+
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.dtls_yxt{
+	float: left;
+	width: 50%;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.property-details.dtls_info .jomcl-box.jomcl-yt{
+	float:  right;
+	width:  150px;
+	height: 110px;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.jomcl-item.slick-slide{
+	float:      left;
+	margin-top: 15px;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.main-head-lines_lft{
+	float:	   left;
+	max-width: 440px;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.social_med_rht{
+	float: right;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.flex-direction-nav{
+  margin-top: 340px;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.flex-direction-nav a::before{
+	  content: 	   "" !important;
+	  font-family: "FontAwesome" !important;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.flex-direction-nav a.flex-next::before{
+	content: 	 "" !important;
+	font-family: "FontAwesome" !important;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.flex-direction-nav a{
+	padding-top: 10px;
+	top:		 92% !important;
+}
+/* anandbabu - 08/13/2015 - task #3694 */
+.slider .flex-control-thumbs li{
+	padding: 		0 5px !important;
+	vertical-align: middle;
+	width: 			18.4% !important;
+}
+/* anandbabu - 08/14/2015 - task #3694 */
+.slider .flex-control-thumbs img{
+	border: 	1px solid #ddd;
+	cursor: 	pointer;
+	display: 	block;
+	height: 	100px;
+	opacity: 	0.7;
+	transition: all 1s ease 0s;
+	width: 	    auto;
+}
+/* anandbabu - 08/14/2015 - task #3694 */
+.emailblock > p{
+	float: 	  	 left;
+	width: 	  	 86%;
+	line-height: 16px;
+	padding:	 4px 0 0 0;
+}
+/* anandbabu - 08/14/2015 - task #3694 */
+.flexslider .slides img{
+	height:  400px !important;
+	border:  1px solid #ccc;
+    display: block;
+    width:   99% !important;
+}
+/* anandbabu - 08/14/2015 - task #3694 */
+.dtls_info .jomcl-yt-overlay{
+	display: none;
+}
+/* anandbabu - 08/17/2015 - task #3694 */
+/*#details1 #jcsextrafields_0.adForm div.control-group:nth-child(-n+2){
+	display: none;
+}*/
+/* anandbabu - 08/17/2015 - task #3694 */
+.price-block{
+	height: 100px;
+}
+/* anandbabu - 08/17/2015 - task #3694 */
+.phone-block{
+	height:   300px;
+	position: relative;
+}
+/* anandbabu - 08/17/2015 - task #3694 */
+/*
+.locblock{
+	border-bottom: 2px solid #9f9f9f;
+}*/
+/* anandbabu - 08/17/2015 - task #3694 */
+.advert-views{
+	padding: 20px 0 0;
+}
+/* anandbabu - 08/17/2015 - task #3694 */
+/*
+.advert-descrption{
+	padding: 0 0 40px;
+}*/
+/* anandbabu - 08/17/2015 - task #3694 */
+.tag, .pln{
+	background-color: #fff !important;
+	color: #686868 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+/* anandbabu - 08/17/2015 - task #3694 */
+.detial-right-block{
+	min-height: 640px;
+}
+/* anandbabu - 08/19/2015 - task #3694 */
+.company-address {
+	bottom: 0;
+	margin: 0 0 10px;
+	padding-left: 4px;
+	position: absolute;
+}
+/* anandbabu - 08/20/2015 - task #3694 */
+span#wf_editor_description_toggle{
+	display: none;
+}
+/* anandbabu - 04/06/2016 - task #3903 */
+div#jomclassifieds .control-group .controls input{
+	height: 25px;
+	width:  205px;
+}
+/* anandbabu - 08/21/2015 - task #3724 */
+div#jomclassifieds select#currency{
+	width: auto;
+}
+/* anandbabu - 08/21/2015 - task #3724 */
+div#jomclassifieds select#currency {
+	margin: 0 10px;
+	width:  auto;
+}
+/* anandbabu - 08/21/2015 - task #3724 */
+#jomclassifieds .jomclPricefield.validate-numeric{
+	float: left;
+}
+/* anandbabu - 08/21/2015 - task #3724 */
+.control-group .controls select#cat_p, .control-group .controls select#tagid{
+	width: 206px;
+}
+/* anandbabu - 08/21/2015 - task #3724 */
+div#jomclassifieds .jomclPricefield, div#jomclassifieds #pricemin , div#jomclassifieds #pricemax{
+	width: 60px !important;
+}
+/* anandbabu - 08/25/2015 - task #3588 */
+#jcsSearchForm .control-group .controls select#cat_p, #jcsSearchForm .control-group .controls select#tagid, .jomclForm{
+	width: 100% !important;
+}
+/* anandbabu - 08/26/2015 - task #3588 */
+.rokbox-content .jomClassifiedsSearch.title2.FindAHangarModule.rokbox-content-element{
+	width: 100%;
+}
+/* anandbabu - 08/26/2015 - task #3588 */
+#jcsSearchForm input, #jcsSearchForm .form-vertical select{
+	height:  30px !important;
+	padding: 0 15px !important;
+}
+/* anandbabu - 08/27/2015 - task #3727 */
+div#jomclassifieds select{
+	max-width: 206px;
+	width: 	   100%;
+}
+/* anandbabu - 08/27/2015 - task #3727 */
+.input-append #alert_startdate_img, .input-append #alert_enddate_img{
+	height: 30px;
+}
+/* anandbabu - 08/27/2015 - task #3727 */
+.input-append #alert_startdate, .input-append #alert_enddate{
+	width: 100px !important;
+}
+/* anandbabu - 08/27/2015 - task #3727 */
+.input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn{
+	line-height: 30px;
+}
+/* anandbabu - 08/27/2015 - task #3727 */
+div#jomclassifieds .recaptcha_input_area{
+  margin-top: 0 !important;
+}
+/* anandbabu - 08/27/2015 - task #3727 */
+.btn-group .pull-right{
+	clear:   both;
+	float:   left;
+	padding: 5px 0;
+}
+/* anandbabu - 08/27/2015 - task #3727 */
+.btn-group .pull-left .btn, .btn-group .pull-right .btn{
+	width: 60px;
+}
+/* anandbabu - 08/28/2015 - task #3730 */
+/* commented for anandbabu - 04/13/2015 - task #3730 */
+/*
+#rt-neck-surround {
+	background: url("/images/hangar/backgrounds/sky-clouds-original.jpg") no-repeat bottom;
+}
+ */
+/* anandbabu - 08/28/2015 - task #3730 */
+#rt-neck-surround #rt-feature{
+	background-color: rgba(255, 255, 255, 0.9);
+}
+/* anandbabu - 09/03/2015 - task #3588 */
+#jcsextrafields_144 .control-group label.control-label, #jcsextrafields_132 .control-group label.control-label{
+	display: none;
+}
+/* anandbabu - 09/03/2015 - task #3588 */
+#jcsextrafields_0 .jomcl-textfield input[type="text"]::-moz-placeholder{
+	color: transparent;
+}
+/* anandbabu - 09/03/2015 - task #3588 */
+#jcsextrafields_0 .jomcl-textfield input[type="text"]::-webkit-input-placeholder{
+	color: transparent;
+}
+/* anandbabu - 09/03/2015 - task #3588 */
+#jcsextrafields_0 .jomcl-textfield input[type="text"]:-moz-placeholder{
+	color: transparent;
+}
+/* anandbabu - 09/03/2015 - task #3588 */
+#jcsextrafields_0 .jomcl-textfield input[type="text"]:-ms-input-placeholder{
+	color: transparent;
+}
+
+/* anandkumar - 09/10/2015 - task #3745 */
+
+div#jcsextrafields_0 div.control-group:nth-child(1),div#jcsextrafields_0 div.control-group:nth-child(2){
+	display: none;
+}
+
+.alert .close{
+	right: -7px;
+    top:   -13px;
+}
+
+#rt-neck-surround #rt-feature ul.menu li::before{
+	color: 	   	 #d64242;
+	left: 	  	 0;
+	position: 	 absolute;
+	top: 	  	 6px;
+	content:  	 "\f138";
+	display:     inline;
+    font-family: FontAwesome;
+}
+
+#rt-neck-surround #rt-feature ul.menu li a::before{
+	display: none;
+}
+
+#rt-neck-surround #rt-feature ul.menu li{
+	position: relative;
+}
+ul.menu li a, ul.menu li .item, ul.menu li .separator{
+	padding: 5px 25px;
+}
+
+div.slick-track .item{
+  display: inline-block;
+  float: none !important;
+  padding: 7px;
+}
+/* anandbabu - 09/29/2015 - task #3758 */
+div#jomclassifieds .jomclfeaturedrow-expired{
+	background:    #D64242 none repeat scroll 0 0;
+	color: 		   #fff;
+	display: 	   block;
+	font-size: 	   13px;
+	font-weight:   normal;
+	left: 		   -30px;
+	overflow: 	   hidden;
+	padding: 	   0;
+	position: 	   absolute;
+	text-align:    center;
+	text-overflow: ellipsis;
+	top: 		   25px;
+	transform:     rotate(-45deg);
+	white-space:   nowrap;
+	width:         125px;
+	z-index: 	   1;
+}
+/* anandbabu - 09/29/2015 - task #3758 */
+div#jomclassifieds .jomclfeaturedrow-expired{
+	left: -45px;
+	top:  10px;
+}
+
+/* anandbabu - 09/30/2015 - task #3765 */
+.adtype-label{
+	border-color: 	  rgb(30, 98, 208); 
+	background-color: rgb(30, 98, 208); 
+	color: 			  rgb(255, 255, 255) !important; 
+	border-radius:    2px; 
+	padding: 		  2px 4px; 
+}
+.adtype-font{
+	font-size: 		13px;
+	vertical-align: inherit;
+}
+/* anandbabu - 09/30/2015 - task #3765 */
+.catblock a.adtype-label:hover{
+	color: #cfcfcf !important;
+}
+
+/*
+.itemgroup.slick-slide .item:nth-child(n+3) {
+  padding-left: 4px !important;
+}*/
+
+/* anandbabu - 04/06/2016 - task #3903 */
+#contact3 .control-group .jomcl-textfield .input-large , .adForm .control-group .jomcl-textfield .input-large{
+	padding: 5px !important;
+}
+
+/* anandbabu - 04/06/2016 - task #3903 */
+#recaptcha_privacy > a{
+	bottom:   0;
+	left: 	  -21px;
+	position: absolute;
+	width: 	  100px;
+}
+
+/* anandbabu - 04/06/2016 - task #3903 */
+#details1 #suggestions, #jomclForm #suggestions{
+	max-width: 200px;
+	text-align: center;
+}
+
+/* rize - 04/26/2016 - task #4003 */
+.top-banner {
+	margin:  0 10px;
+	padding: 0 10px !important;
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	#rt-top .rt-container .menu-block .gf-menu .item{
+		color:     #fff;
+		font-size: 12px;
+	}
+	.span4{
+		width: 220px;
+	}
+	.span3{
+		width: 160px;
+	}
+	/* anandbabu - 04/29/2015 - task #3486*/
+	.ht-full{
+		margin-left: 50px;
+		margin-top: 47px;
+	}
+	/* anandbabu - 04/29/2015 - task #3486*/
+	.sign-new{
+		margin-top: 26px;
+	}
+	/* anandbabu - 07/21/2015 - task #3144*/
+	div.slick-track .item{
+		width:   	148px !important;
+		padding: 	3px !important;
+		min-height: 180px; /* rize - 11/03/2016 - task #4131*/
+	}
+	/* anandbabu - 07/21/2015 - task #3144*/
+	#rt-feature .span4{
+		width: 100%;
+	}
+	/* anandbabu - 08/12/2015 - task #3694 */
+	div#jomclassifieds .listview .cat-detials{
+		display: 	  block;
+		margin-top:   10px;
+		padding-left: 0;
+		width: 		  100%;
+	}
+	/* anandbabu - 08/12/2015 - task #3694 */
+	.contacts-info{
+		padding-left: 6px;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.price-block{
+		height: 60px;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.phone-block{
+		height: 100px;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.detial-left-block{
+		height: 490px;
+    }
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	#jomClassifiedsMaps{
+		width: 960px !important;
+		height:500px;
+	}
+	.span3 {
+		width: 210px;
+	}
+	.span4 {
+		width: 290px;
+	}
+	/* anandbabu - 07/21/2015 - task #3144*/
+	div.slick-track .item{
+		width:   	185px !important;
+		padding: 	3px !important;
+		min-height: 190px; /* rize - 11/03/2016 - task #4131*/
+	}
+	/* anandbabu - 07/21/2015 - task #3144*/
+	div.slick-track .item{
+		padding: 2px !important;
+	}
+	/* anandbabu - 07/21/2015 - task #3144*/
+	#rt-feature .span4{
+		width: 100%;
+	}
+	/* anandbabu - 08/12/2015 - task #3694 */
+	div#jomclassifieds .listview .cat-detials{
+		display: block;
+		margin-top: 10px;
+		padding-left: 0;
+		width: 100%;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.price-block{
+		height: 60px;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.phone-block{
+		height: 100px;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.detial-left-block{
+		height: 490px;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 767px) {
+	/* anandbabu - 08/12/2015 - task #3694 */
+	.desc_sec{
+		margin: 10px 10px 10px 30px;
+	}
+	/* anandbabu - 08/12/2015 - task #3694 */
+	.contacts-info{
+		border-left:  none;
+		padding-left: 30px;
+	}
+	/* anandbabu - 08/12/2015 - task #3694 */
+	.flexslider .slides img{
+		height: 270px !important;
+	}
+	/* anandbabu - 08/12/2015 - task #3694 */
+	.slider .flex-control-thumbs li{
+		width: 17.4% !important;
+	}
+	/* anandbabu - 08/12/2015 - task #3694 */
+	.slider .flex-control-thumbs img{
+		height: 64px;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.price-block{
+		height: auto;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.phone-block{
+		height: auto;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.locblock{
+		border-bottom: 0;
+		padding-top:   8px;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.detial-left-block{
+		height:  auto;
+		padding: 10px 0;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.dtls_yxt{
+		width: 100%;
+		float: none;
+	}
+	/* anandbabu - 08/17/2015 - task #3694 */
+	.property-details.dtls_info .jomcl-box.jomcl-yt {
+		float: left;
+		height: 110px;
+		padding: 20px 0 0;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.CallUsModule  p{
+		text-align: center !important;
+	}
+	.LandOfTheFree{
+		width:190px;
+		margin: auto;
+	}
+	.GoogleMap{
+		display: none;
+	}
+	.GoogleMapResponsive{
+		display: inherit !important;
+	}
+	#rt-header-surround .rt-grid-6 .rt-block{
+		padding: 0;
+	}
+	.ht-full{
+		margin-top: 0;
+	}
+	#rt-header .sign-new li a:hover{
+	  color: #000 !important;
+	}
+	/* anandbabu - 08/14/2015 - task #3694 */
+	div.slick-track .item{
+		width:   240px !important;
+		padding: 3px !important;
+	}
+	/* anandbabu - 08/14/2015 - task #3694 */
+	div.slick-track .item{
+		padding: 2px !important;
+	}
+
+
+}
+
+
+@media only screen
+and (max-device-width : 480px)
+and (orientation : landscape) {
+	/* anandbabu - 07/21/2015 - task #3144*/
+	div.slick-track .item{
+		float:  none !important;
+		margin: 0 auto !important;
+	}
+
+}
+
+@media only screen
+and (max-device-width : 768px)
+and (orientation : portrait) {
+	.CallUsModule  p{
+		text-align: center !important;
+	}
+	.LandOfTheFree{
+		width:190px;
+		margin: auto;
+	}
+	.GoogleMap{
+		display: none;
+	}
+	.GoogleMapResponsive{
+		display: inherit !important;
+	}
+	/* anandbabu - 08/14/2015 - task #3694 */
+	.flexslider .slides img{
+		height: 270px !important;
+	}
+	/* anandbabu - 08/14/2015 - task #3694 */
+	.slider .flex-control-thumbs li {
+		width: 17.4% !important;
+	}
+	/* anandbabu - 08/14/2015 - task #3694 */
+	.slider .flex-control-thumbs img {
+		height: 64px;
+	}
+}
+
+@media only screen
+and (max-device-width : 768px)
+and (orientation : landscape) {
+	.GoogleMap{
+		display: none;
+	}
+	.GoogleMapResponsive{
+		display: inherit !important;
+	}
+	.span4 {
+		width: 290px;
+	}
+	.span3 {
+		width: 220px;
+	}
+}
+
+
+@media all and (max-width: 479px) {
+	/* anandbabu - 08/14/2015 - task #3694 */
+	.flexslider .slides img{
+		height: 214px !important;
+	}
+	/* anandbabu - 08/14/2015 - task #3694 */
+	.slider .flex-control-thumbs li{
+		width: 16% !important;
+	}
+}
+
+/*.FindAHangarModule label{
+    display: none;
+}*/
+
+.GoogleMapResponsive{
+	display: none;
+}
+/*
+h2.title span{
+    color: #FFFFFF;
+}
+*/
+
+
+/* Sandra - 11/19/2015 - task #3874 */
+#rt-copyright > div > div > div.rt-grid-6.rt-alpha > div{
+	margin-top: 10px !important;
+}
+
+#rt-copyright > div > div > div.rt-grid-6.rt-omega > div{
+    padding-top: 0px;
+}
+
+/* Rize - 04/07/2016 - task #3727*/
+div#jomclassifieds .control-group .controls input{
+	font-size: 14px;
+	height:	   30px;
+}
+
+/* Rize - 05/17/2016 - task #3727*/
+.input-mini{
+	width: 105px;
+}
+
+/* rize - 05/24/2016 - task #3998*/
+.menu-home #rt-page-surround{
+	/*background-repeat: repeat !important;*/ /* rize - 06/07/2016 - task #4029*/
+}
+
+/* rize - 06/07/2016 - task #4029*/
+#rt-header-surround{
+	background: rgba(0, 0, 0, 0) url("/images/hangar/backgrounds/clouds_bg_final.png") no-repeat scroll 0 0;
+}
+
+/* rize - 10/13/2016 - task #4139*/
+div#jomclassifieds .jomcl-detailview .jomcl-row1 .jomcl-right{
+	width: 25%;
+}
+
+div#jomclassifieds .jomcl-detailview .column-top .jomcl-row1 .jomcl-left{
+	width: 75%;
+}
+
+/* rize - 11/03/2016 - task #4131*/
+div.slick-track .item{
+	line-height: 15px;
+}
+
+div.slick-track .item img.resize{
+	bottom: -15px !important;
+}

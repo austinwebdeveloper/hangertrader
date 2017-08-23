@@ -1,0 +1,3 @@
+.dropdown {-webkit-backface-visibility: hidden;}
+.gf-menu .item.icon [class^="icon-"], .gf-menu .item.icon [class*=" icon-"] {-webkit-font-smoothing: inherit;}
+canvas {height: auto !important;}

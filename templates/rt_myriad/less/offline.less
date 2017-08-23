@@ -1,0 +1,136 @@
+/**
+* @version   $Id: offline.less 12813 2013-08-16 21:57:09Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+@import "variables.less";
+@import "/jui/less/mixins.less";
+@import "mixins/index.less";
+
+#rt-offline {
+	.rt-branding.rt-block {
+		margin: 25px;
+	}
+	.rt-copyright-content.rt-block {
+		margin-top: 35px;
+	}
+}
+#system-message-container {
+    position: relative;
+    z-index: 1000;
+}
+.rt-offline-logo {
+	width: 240px;
+	margin: 0 auto 50px auto;
+	#rt-logo {
+		margin: 0 auto;
+	}
+}
+.rt-offline-body {
+	padding: 150px 0;
+	width: 100%;
+}
+.rt-offline-title {
+	margin: 30px 0;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.rt-offline-message,
+.rt-authorized-login-message {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+.rt-subscription-title,
+.rt-authorized-form-title {
+	font-size: 160%;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+#rt-subscription-form {
+	padding: 80px 0;
+	width: 100%;
+	.rt-container {
+		background: none;
+	}
+}
+
+#rt-authorized-form {
+	padding: 50px 0;
+}
+
+.rt-offline-form,
+.rt-authorized-login-form {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+	.inputbox {
+		color: @grey;
+		border: 1px solid transparent;
+		#gradient > .horizontal(fadeout(@light-grey, 30%), fadeout(@light-grey, 30%));
+		width: 20%;
+		&.rt-secretkey-input {
+			width: 100px;
+		}
+	}
+}
+
+.rt-secretkey-help {
+	padding: 0 10px;
+	vertical-align: middle;
+}
+
+#rt-form-login {
+	margin: 25px auto;
+}
+
+// Mobile Modes
+@media (max-width: 767px) {
+	body.layout-mode-responsive {
+		.rt-offline-body {
+			padding: 50px 0;
+		}
+		.rt-offline-title {
+			letter-spacing: 5px;
+			width: 80%;
+			margin: auto;
+		}
+		.rt-offline-form,
+		.rt-authorized-login-form {
+			.inputbox, .button {
+				width: 80%;
+			    height: 40px;
+			    margin: auto;
+				display: block;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			.inputbox {
+				margin: 15px auto;
+			}
+			.readon, .button {
+			    padding: 10px 25px;
+			}
+		}
+		#rt-subscription-form {
+			background-position: 50% 150px;
+		}
+	}
+}
+
+// Small Screen Mobile Modes
+@media only screen and (max-width: 480px) {
+	body.layout-mode-responsive {
+		.rt-offline-title {
+			font-size: 1.5em;
+			letter-spacing: 3px;
+			width: 90%;
+			margin: auto;
+		}
+	}
+}

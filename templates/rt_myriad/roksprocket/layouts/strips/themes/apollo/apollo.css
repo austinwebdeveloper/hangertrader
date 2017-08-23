@@ -1,0 +1,79 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Layout - Sprocket Strips - Core */
+.sprocket-strips-apollo {position: relative;}
+.sprocket-strips-apollo:after {display: table;content: "";*zoom: 1;clear: both;}
+.sprocket-strips-apollo-container {list-style: none !important;overflow: hidden;padding: 0;}
+.sprocket-strips-apollo-container:before, .sprocket-strips-apollo-container:after {content: "";display: table;line-height: 0;}
+
+/* Layout - Sprocket Strips - Items */
+.sprocket-strips-apollo-block {position: relative;clear: both;margin: 0 auto;list-style: none;text-align: center;display: inline-block;}
+.cols-1 .sprocket-strips-apollo-block {width: 100%;}
+.cols-2 .sprocket-strips-apollo-block {width: 50%;}
+.cols-3 .sprocket-strips-apollo-block {width: 33.33%;}
+.cols-4 .sprocket-strips-apollo-block {width: 25%;}
+.cols-5 .sprocket-strips-apollo-block {width: 20%;}
+.cols-6 .sprocket-strips-apollo-block {width: 16.6667%;}
+.cols-7 .sprocket-strips-apollo-block {width: 14.2555%;}
+.cols-8 .sprocket-strips-apollo-block {width: 12.5%;}
+.cols-9 .sprocket-strips-apollo-block {width: 11.11%;}
+.cols-10 .sprocket-strips-apollo-block {width: 10%;}
+.cols-11 .sprocket-strips-apollo-block {width: 9.09%;}
+.cols-12 .sprocket-strips-apollo-block {width: 8.33%;}
+
+/* Layout - Sprocket Strips - Apollo Effect */
+.rt-apollo-1 .sprocket-strips-effect-apollo img {max-width: 100%;}
+.rt-apollo-2 .sprocket-strips-effect-apollo img {max-width: calc(100% + 50px);}
+.rt-apollo-3 .sprocket-strips-effect-apollo img {max-width: 100%;}
+
+/* Layout - Sprocket Strips - Navigation */
+.sprocket-strips-apollo-nav {display: table;width: 100%;}
+.sprocket-strips-apollo-pagination {display: table-cell;vertical-align: middle;}
+.sprocket-strips-apollo-pagination ul {float: left;margin: 0 !important;padding: 0 !important;}
+.sprocket-strips-apollo-pagination li {display: inline-block;padding: 4px !important;opacity: 0.3;border-radius: 1em;cursor: pointer;}
+.sprocket-strips-apollo-pagination li.active {opacity: 1;}
+.sprocket-strips-apollo-pagination li span {display: none;font-size: 0.85em;line-height: 1em;}
+.sprocket-strips-apollo-pagination-hidden {display: none;}
+.sprocket-strips-apollo-arrows {display: table-cell;vertical-align: middle;}
+.sprocket-strips-apollo-arrow ul {float: right;margin: 0 !important;padding: 0 !important;}
+.sprocket-strips-apollo-arrows .arrow {display: block;width: 22px;height:22px;border-radius: 1em;opacity: 0.7;cursor: pointer;float: right;margin-left: 5px;text-align: center;font-size: 2em;position: relative;}
+.sprocket-strips-apollo-arrows .arrow:hover {opacity: 1;}
+.sprocket-strips-apollo-arrows .arrow:before {content: '';width: 0;height: 0;position: absolute;top: 50%;margin-top: -5px;border-top: 5px solid transparent;border-bottom: 5px solid transparent;}
+.sprocket-strips-apollo-arrows .prev:before {left: 50%;margin-left: -3px;border-right: 5px solid;}
+.sprocket-strips-apollo-arrows .next:before {right: 50%;margin-right: -3px;border-left: 5px solid;}
+
+/* Spinner */
+.sprocket-strips-apollo-overlay {display: none;position: absolute;margin-top: -66px;top:50%;left:0;right:0;bottom:0;background-color:transparent;z-index:5;}
+.sprocket-strips-apollo-overlay .css-loader-wrapper {width: 60px;height:60px;margin: 0 auto;padding: 20px;background-color: rgba(0, 0, 0, 0.7);box-shadow:0 0 5px rgba(0, 0, 0, 0.4) inset,1px 1px 1px rgba(255, 255, 255, 0.1);border-radius:1em;}
+.sprocket-strips-apollo.loading .sprocket-strips-apollo-overlay {display: block;}
+.sprocket-strips-apollo-overlay .css-loader {display: block;margin: 0 auto;font-size: 10px;position: relative;text-indent: -9999em;border-top: 8px solid rgba(255, 255, 255, 0.2);border-right: 8px solid rgba(255, 255, 255, 0.2);border-bottom: 8px solid rgba(255, 255, 255, 0.2);border-left: 8px solid #ffffff;-webkit-animation: loader 1.1s infinite linear;animation: loader 1.1s infinite linear;}
+.sprocket-strips-apollo-overlay .css-loader {border-radius: 50%;width: 44px;height: 44px;}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Plain */
+.plain .sprocket-strips-apollo-item  {padding: 0;margin: 0;}
+.plain .sprocket-strips-apollo-extended-info {visibility: visible;position: relative;}

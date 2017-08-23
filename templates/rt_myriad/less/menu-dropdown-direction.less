@@ -1,0 +1,56 @@
+/**
+* @version   $Id: menu-dropdown-direction.less 13257 2013-09-04 19:24:30Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+@import "mixins/index.less";
+
+// Large Mode
+@media only screen and (min-width: 1200px) {
+	.rt-dropdown-left-large:hover > .dropdown {
+		.rt-flyout-left-direction();
+		.gf-menu > & {
+			.rt-dropdown-left-direction();
+		}
+	}
+	.rt-dropdown-right-large:hover > .dropdown {
+		.rt-flyout-right-direction();
+		.gf-menu > & {
+			.rt-dropdown-right-direction();
+		}
+	}
+}
+
+// Desktop Modes
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.rt-dropdown-left-desktop:hover > .dropdown {
+		.rt-flyout-left-direction();
+		.gf-menu > & {
+			.rt-dropdown-left-direction();
+		}
+	}
+	.rt-dropdown-right-desktop:hover > .dropdown {
+		.rt-flyout-right-direction();
+		.gf-menu > & {
+			.rt-dropdown-right-direction();
+		}
+	}
+}
+
+// Tablet Modes
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.rt-dropdown-left-tablet:hover > .dropdown {
+		.rt-flyout-left-direction();
+		.gf-menu > & {
+			.rt-dropdown-left-direction();
+		}
+	}
+	.rt-dropdown-right-tablet:hover > .dropdown {
+		.rt-flyout-right-direction();
+		.gf-menu > & {
+			.rt-dropdown-right-direction();
+		}
+	}
+}

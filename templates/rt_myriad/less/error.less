@@ -1,0 +1,79 @@
+/**
+* @version   $Id: error.less 12813 2013-08-16 21:57:09Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+@import "variables.less";
+
+#rt-error {
+	.rt-branding.rt-block {
+		margin: 25px;
+	}
+	.rt-copyright-content.rt-block {
+		margin-top: 35px;
+	}
+}
+.rt-error-body {
+	margin: 150px auto;
+	padding: 50px 0;
+	width: 80%;
+	@media only screen and (max-width: 767px) {
+		body.layout-mode-responsive & {
+			width: 100%;
+			margin: 50px 0;
+		}
+	}
+	@media only screen and (max-width: 480px) {
+		body.layout-mode-responsive & {
+			width: 100%;
+			margin: 0;
+		}
+	}
+}
+.rt-error-header {
+	text-align: center;
+	margin: 25px auto;
+	display: block;
+}
+
+.rt-error-code {
+	font-size: 6em;
+	line-height: 1.5em;
+	display: block;
+}
+
+.rt-error-code-desc {
+	text-transform: uppercase;
+}
+
+.rt-error-content {
+	text-align: center;
+	margin: 25px auto;
+	display: block;
+}
+
+.rt-error-title {
+	font-size: 2em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+.rt-error-message {
+	font-size: 1em;
+	margin: 15px 0;
+}
+
+.rt-error-button {
+	margin: 25px 0;
+	.readon {
+		color: @white;
+		border: 1px solid darken(@accent-color1, 12%);
+		background: darken(@accent-color1, 5%);
+		&:hover {
+			color: @white;
+			background: lighten(@accent-color1, 10%);
+		}
+	}
+}

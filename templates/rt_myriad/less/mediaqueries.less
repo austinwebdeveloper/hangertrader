@@ -1,0 +1,234 @@
+/**
+* @version   $Id: mediaqueries.less 12813 2013-08-16 21:57:09Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+// Large Mode
+@media only screen and (min-width: 1200px) {
+	body.layout-mode-responsive {
+		// Responsive Classes
+		.visible-large {
+			display: inherit !important;
+		}
+		.hidden-large {
+			display: none !important;
+		}
+		.visible-desktop {
+			display: inherit !important;
+		}
+		.hidden-desktop {
+			display: none !important;
+		}
+	}
+}
+
+// Desktop Modes
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	body.layout-mode-responsive {
+		// Responsive Classes
+		.visible-large {
+			display: none !important;
+		}
+		.hidden-large {
+			display: inherit !important;
+		}
+		.visible-desktop {
+			display: inherit !important;
+		}
+		.hidden-desktop {
+			display: none !important;
+		}
+
+		// Heading and Title
+		h1 {font-size: 230%;line-height: 120%;}
+		h2 {font-size: 135%;line-height: 135%;}
+		h3 {font-size: 125%;line-height: 125%;}
+		h4 {font-size: 115%;line-height: 115%;}
+		h5 {font-size: 105%;line-height: 105%;}
+	}
+}
+
+// Tablet Modes
+@media (min-width: 768px) and (max-width: 959px) {
+	body.layout-mode-responsive {
+		// Responsive Classes
+		.visible-tablet {
+			display: inherit !important;
+		}
+		.hidden-tablet {
+			display: none !important;
+		}
+		.hidden-desktop {
+			display: inherit !important;
+		}
+		.visible-desktop {
+			display: none !important;
+		}
+		.visible-large {
+			display: none !important;
+		}
+		.hidden-large {
+			display: inherit !important;
+		}
+
+		// Heading and Title
+		h1 {font-size: 200%;line-height: 110%;}
+		h2 {font-size: 125%;line-height: 125%;}
+		h3 {font-size: 115%;line-height: 115%;}
+		h4 {font-size: 105%;line-height: 105%;}
+		h5 {font-size: 100%;line-height: 100%;}
+
+		// Menu
+		.gf-menu {
+			&.l1 > li {
+				 &.parent > .item {
+				 	&:after {
+				 		display: none;
+				 	}
+				 }
+			}
+		}
+	}
+}
+
+// Mobile Modes
+@media (max-width: 767px) {
+	body.layout-mode-responsive {
+		padding: 0;
+
+		// Core
+		#rt-page-surround {
+			padding: 0;
+		}
+
+		// Responsive Classes
+		.visible-phone {
+			display: inherit !important;
+		}
+		.hidden-phone {
+			display: none !important;
+		}
+		.hidden-desktop {
+			display: inherit !important;
+		}
+		.visible-desktop {
+			display: none !important;
+		}
+		.hidden-large {
+			display: inherit !important;
+		}
+		.visible-large {
+			display: none !important;
+		}
+
+		// Typography
+		.rt-phone-center {
+			text-align: center;
+		}
+
+		// Heading and Title
+		h1 {font-size: 180%;line-height: 120%;}
+		h2 {font-size: 120%;line-height: 120%;}
+		h3 {font-size: 110%;line-height: 110%;}
+		h4 {font-size: 100%;line-height: 100%;}
+		h5 {font-size: 95%;line-height: 95%;}
+
+		// Logo
+		.rt-logo-block {
+			padding: 5px 0;
+		}
+		#rt-logo {
+			margin: 15px auto;
+		}
+
+		// Menu
+		.menu-block {
+			float: none;
+			margin: auto;
+			border-bottom: none;
+		}
+		.dropdown {
+			background: none !important;
+			box-shadow: none !important;
+			border: 0 !important;
+		}
+		.dropdown-spacer {
+			display: none !important;
+		}
+		.flyout {
+			margin-left: 0 !important;
+		}
+
+		// Copyright
+		#rt-copyright {
+			text-align: center;
+		}
+
+		// Joomla Core
+		.component-content {
+			.column-1, .column-2, .column-3, .column-4 {
+				width: 100% !important;
+				float: none !important;
+				margin: 0 !important;
+			}
+		}
+
+		// Branding
+		.rt-powered-by {
+			margin: 0 auto;
+		}
+
+		// Extras
+		.gantry-width-20, .gantry-width-25, .gantry-width-30, .gantry-width-33, .gantry-width-40, .gantry-width-50, .gantry-width-60, .gantry-width-66, .gantry-width-70, .gantry-width-75, .gantry-width-80 {
+			width: 100%;
+		}
+		.gantry-width-spacer {
+			margin: 0 5px;
+		}
+
+		.row {
+			margin: 0;
+			display: block;
+
+			.cell {
+				display: block;
+				width: 100%;
+			}
+		}
+
+		.form-horizontal {
+			.control-group {
+				.control-label {
+					float:none;
+					width: auto;
+					text-align:left;
+				}
+				.controls {
+					margin-left: 0;
+				}
+			}
+		}
+		select {
+			width: 100%;
+		}
+	}
+}
+
+// Small Screen Mobile Modes
+@media only screen and (max-width: 480px) {
+	body.layout-mode-responsive {
+		// Core
+		.rt-container {
+			width: 100%;
+		}
+
+		// Heading and Title
+		h1 {font-size: 170%;line-height: 250%;}
+		h2 {font-size: 110%;line-height: 165%;}
+		h3 {font-size: 105%;line-height: 155%;}
+		h4 {font-size: 100%;line-height: 150%;}
+		h5 {font-size: 95%;line-height: 140%;}
+	}
+}

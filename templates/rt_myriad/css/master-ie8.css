@@ -1,0 +1,131 @@
+/**
+* @version   $Id: master-ie8.css 24425 2014-12-01 14:27:56Z arifin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Body Overflow */
+body #rt-page-surround {overflow: visible !important;}
+
+/* Navigation */
+body .dropdown {zoom: 1;}
+body .gf-menu.l1 > li.active > .item {zoom: 1;}
+body .gf-menu li.modules:hover {filter: none;}
+
+/* DropDown Direction */
+body .rt-dropdown-left-desktop:hover > .dropdown {left: auto !important;right: 100% !important;}
+body .gf-menu > .rt-dropdown-left-desktop:hover > .dropdown {left: auto !important;right: 0 !important;}
+body .rt-dropdown-right-desktop:hover > .dropdown {left: 100% !important;right: auto !important;}
+body .gf-menu > .rt-dropdown-right-desktop:hover > .dropdown {left: 0 !important;right: auto !important;}
+
+/* Button */
+.btn.disabled:hover, .btn.disabled.btn-primary:hover {filter: alpha(opacity=65);zoom: 1;}
+
+/* Module Variations */
+body [class^="box"] .module-content [class*="custom"], body [class*=" box"] .module-content [class*="custom"] {filter: none;}
+
+/* Joomla Pagination */
+body .pagination ul li a {filter: none;}
+
+/* RokAjaxSearch */
+body .rokajaxsearch .inputbox {padding-top: 7px;}
+
+/* RokSprocket Strips */
+body .sprocket-strips .sprocket-strips-item {filter: none !important;}
+body .sprocket-strips-pagination li {background: #aaaaaa;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";}
+
+/* RokSprocket Mosaics */
+body [class*="sprocket"] .sprocket-mosaic-filter li, body [class*="sprocket"] .sprocket-mosaic-order li {filter: none;}
+body .sprocket-mosaic-hover {background: #333333;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";}
+
+/* RokSprocket Lists */
+body .sprocket-lists-pagination li, body .sprocket-lists-arrows .arrow {background: #aaaaaa;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";}
+
+/* Desktop Responsive Class */
+body .visible-tablet{display:inherit !important;}
+body .hidden-desktop{display:none !important;}
+body .visible-desktop{display:none !important;}
+body .visible-large{display:none !important;}
+body .hidden-large{display:inherit !important;}
+
+/* Grid Layout */
+body .rt-container {width: 960px;}
+.rt-container .rt-grid-1 {width: 80px;}
+.rt-container .rt-grid-2 {width: 160px;}
+.rt-container .rt-grid-3 {width: 240px;}
+.rt-container .rt-grid-4 {width: 320px;}
+.rt-container .rt-grid-5 {width: 400px;}
+.rt-container .rt-grid-6 {width: 480px;}
+.rt-container .rt-grid-7 {width: 560px;}
+.rt-container .rt-grid-8 {width: 640px;}
+.rt-container .rt-grid-9 {width: 720px;}
+.rt-container .rt-grid-10 {width: 800px;}
+.rt-container .rt-grid-11 {width: 880px;}
+.rt-container .rt-grid-12 {width: 960px;}
+
+.rt-container .rt-push-1 {left: 80px;}
+.rt-container .rt-push-2 {left: 160px;}
+.rt-container .rt-push-3 {left: 240px;}
+.rt-container .rt-push-4 {left: 320px;}
+.rt-container .rt-push-5 {left: 400px;}
+.rt-container .rt-push-6 {left: 480px;}
+.rt-container .rt-push-7 {left: 560px;}
+.rt-container .rt-push-8 {left: 640px;}
+.rt-container .rt-push-9 {left: 720px;}
+.rt-container .rt-push-10 {left: 800px;}
+.rt-container .rt-push-11 {left: 880px;}
+
+.rt-container .rt-pull-1 {left: -80px;}
+.rt-container .rt-pull-2 {left: -160px;}
+.rt-container .rt-pull-3 {left: -240px;}
+.rt-container .rt-pull-4 {left: -320px;}
+.rt-container .rt-pull-5 {left: -400px;}
+.rt-container .rt-pull-6 {left: -480px;}
+.rt-container .rt-pull-7 {left: -560px;}
+.rt-container .rt-pull-8 {left: -640px;}
+.rt-container .rt-pull-9 {left: -720px;}
+.rt-container .rt-pull-10 {left: -800px;}
+.rt-container .rt-pull-11 {left: -880px;}
+
+.rt-container .rt-prefix-1 {padding-left: 80px;}
+.rt-container .rt-prefix-2 {padding-left: 160px;}
+.rt-container .rt-prefix-3 {padding-left: 240px;}
+.rt-container .rt-prefix-4 {padding-left: 320px;}
+.rt-container .rt-prefix-5 {padding-left: 400px;}
+.rt-container .rt-prefix-6 {padding-left: 480px;}
+.rt-container .rt-prefix-7 {padding-left: 560px;}
+.rt-container .rt-prefix-8 {padding-left: 640px;}
+.rt-container .rt-prefix-9 {padding-left: 720px;}
+.rt-container .rt-prefix-10 {padding-left: 800px;}
+.rt-container .rt-prefix-11 {padding-left: 880px;}
+
+/* Template Stuff */
+/* Heading and Title */
+body h1 {font-size: 230%;line-height: 120%;}
+body h2 {font-size: 135%;line-height: 135%;}
+body h3 {font-size: 125%;line-height: 125%;}
+body h4 {font-size: 115%;line-height: 115%;}
+body h5 {font-size: 105%;line-height: 105%;}
+
+/* Input */
+body .inputbox {padding-top: 12px !important;}
+body .inputbox[type='checkbox'] {padding: 0 !important;}
+
+/* Counter */
+body #rt-comingsoon-counter .number {filter: none !important;}
+
+/* Mainbody */
+body #rt-content-top, body #rt-content-bottom {display: block;}
+
+/* Demo Stuff */
+body #rt-header {visibility: visible !important;}
+body #rt-slideshow .layout-fullslideshow .sprocket-features-desc {display: block;}
+body #rt-slideshow .layout-fullslideshow .sprocket-features-padding {width: 800px;}
+body #rt-slideshow .layout-fullslideshow .sprocket-fullslideshow-image {width: 100%;margin: auto;}
+body #rt-slideshow .layout-fullslideshow .sprocket-features-content {position: relative;margin-left: -410px !important;}
+body #rt-slideshow .layout-fullslideshow .sprocket-features-padding {position: relative;left: 50%;top: 200px;}
+body .sprocket-strips-xscroll-text {position: relative;margin-left: -270px !important;margin-top: -50px;}
+body .rt-image-effect-caption {display: none;}
+body #rt-slideshow .rt-tobottom:hover:before {font-size: 70px !important;}
+body .sprocket-strips-apollo-block {clear: none;float: left;display: block;}

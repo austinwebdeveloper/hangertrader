@@ -1,0 +1,76 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Layout - Sprocket Strips - Colors */
+.sprocket-strips-xscroll-pagination li {background: #000;color: #fff;}
+.sprocket-strips-xscroll-arrows .arrow {background: #ccc;color: #222;border-color: #303030;}
+
+/* Layout - Sprocket Strips - Core */
+.sprocket-strips-s {position: relative;}
+.sprocket-strips-s:after {display: table;content: "";*zoom: 1;clear: both;}
+.sprocket-strips-xscroll-container {list-style: none !important;overflow: hidden;margin: 0;padding: 0;}
+.sprocket-strips-xscroll-container:before, .sprocket-strips-xscroll-container:after {content: "";display: table;line-height: 0;}
+
+/* Layout - Sprocket Strips - Items */
+.sprocket-strips-xscroll-item {position: relative;}
+.sprocket-strips-xscroll-title {margin: 15px 0;}
+.sprocket-strips-xscroll-readmore {display: block;}
+.sprocket-strips-xscroll-block {width: 680px;margin: 0 5px;float: none;display: inline-block;box-sizing: border-box;}
+.sprocket-strips-xscroll-block:first-child {margin-left: 0;}
+.sprocket-strips-xscroll-block:last-child {margin-right: 0;}
+
+/* Layout - Sprocket Strips -  Scrollbar */
+#sprocket-strips-xscroll .viewport {width: 100%;min-height: 420px;overflow: hidden;position: relative;}
+#sprocket-strips-xscroll .overview {min-width: 1920px;left: 0;list-style: outside none none;margin: 0;padding: 0;position: absolute;top: 0;}
+#sprocket-strips-xscroll .scrollbar {background: #383838;clear: both;height: 17px;margin: 0;position: absolute;bottom: 32px;}
+#sprocket-strips-xscroll .track {height: 17px;position: relative;width: 100%;}
+#sprocket-strips-xscroll .thumb {background: #888;cursor: pointer;height: 13px;left: 0;overflow: hidden;position: absolute;top: 2px;border-radius: 13px;}
+#sprocket-strips-xscroll .thumb .end {overflow: hidden;}
+#sprocket-strips-xscroll .disable {display: none;}
+
+/* Layout - Sprocket Strips - Navigation */
+.sprocket-strips-xscroll-nav {display: table;width: 100%;padding: 5px;}
+.sprocket-strips-xscroll-pagination {display: table-cell;vertical-align: middle;}
+.sprocket-strips-xscroll-pagination ul {float: left;margin: 0 !important;padding: 0 !important;}
+.sprocket-strips-xscroll-pagination li {display: inline-block;padding: 4px !important;opacity: 0.3;border-radius: 1em;cursor: pointer;}
+.sprocket-strips-xscroll-pagination li.active {opacity: 1;}
+.sprocket-strips-xscroll-pagination li span {display: none;font-size: 0.85em;line-height: 1em;}
+.sprocket-strips-xscroll-pagination-hidden {display: none;}
+.sprocket-strips-xscroll-arrows {display: table-cell;vertical-align: middle;}
+.sprocket-strips-xscroll-arrow ul {float: right;margin: 0 !important;padding: 0 !important;}
+.sprocket-strips-xscroll-arrows .arrow {display: block;width: 22px;height:22px;border-radius: 1em;opacity: 0.7;cursor: pointer;float: right;margin-left: 5px;text-align: center;font-size: 2em;position: relative;}
+.sprocket-strips-xscroll-arrows .arrow:hover {opacity: 1;}
+.sprocket-strips-xscroll-arrows .arrow:before {content: '';width: 0;height: 0;position: absolute;top: 50%;margin-top: -5px;border-top: 5px solid transparent;border-bottom: 5px solid transparent;}
+.sprocket-strips-xscroll-arrows .prev:before {left: 50%;margin-left: -3px;border-right: 5px solid;}
+.sprocket-strips-xscroll-arrows .next:before {right: 50%;margin-right: -3px;border-left: 5px solid;}
+
+/* Spinner */
+.sprocket-strips-xscroll-overlay {display: none;position: absolute;margin-top: -66px;top:50%;left:0;right:0;bottom:0;background-color:transparent;z-index:5;}
+.sprocket-strips-xscroll-overlay .css-loader-wrapper {width: 60px;height:60px;margin: 0 auto;padding: 20px;background-color: rgba(0, 0, 0, 0.7);box-shadow:0 0 5px rgba(0, 0, 0, 0.4) inset,1px 1px 1px rgba(255, 255, 255, 0.1);border-radius:1em;}
+.sprocket-strips-s.loading .sprocket-strips-xscroll-overlay {display: block;}
+.sprocket-strips-xscroll-overlay .css-loader {display: block;margin: 0 auto;font-size: 10px;position: relative;text-indent: -9999em;border-top: 8px solid rgba(255, 255, 255, 0.2);border-right: 8px solid rgba(255, 255, 255, 0.2);border-bottom: 8px solid rgba(255, 255, 255, 0.2);border-left: 8px solid #ffffff;-webkit-animation: loader 1.1s infinite linear;animation: loader 1.1s infinite linear;}
+.sprocket-strips-xscroll-overlay .css-loader {border-radius: 50%;width: 44px;height: 44px;}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
